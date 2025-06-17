@@ -90,7 +90,7 @@ def is_not_a_word(word):
 
 def extract_dictionary(string):
     word_dictionary = {}
-    words = text.split()
+    words = text.lower().split()
     for word in words:
         word = word.strip(',.;?/\'\"\\+-_= ')
         if is_not_a_word(word):
