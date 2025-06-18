@@ -21,31 +21,12 @@ def is_a_word(text):
     return True
 
 
-"""
-Function: initialize_dictionary_from_text
-Description: Initialize a dictionary of words. 
-Parameters:
-    - text (string): A string of text.
-Return: dict
-"""
-def initialize_dictionary_from_text(text):
-    word_dictionary={}
-    words = map(lambda word:word.strip(',.;?/\'\"\\+-_= '),
-                text.lower().split())
-
-    for word in words:
-        if not is_a_word(word):
-            continue
-
-        if word not in word_dictionary.keys():
-            word_dictionary[word] = class_deck.Card(word)
-
-    return word_dictionary
 
 
-dictionary_from_string = initialize_dictionary_from_text(const.SAMPLE)
-print(dictionary_from_string)
 
+card_deck = class_deck.Deck()
 
-with open('result.json', 'w') as fp:
-    json.dump(dictionary_from_string, fp, default=lambda x: x.__json__() if hasattr(x, '__json__') else None)
+card_deck.import_from_text(title="Dotoyevsky's life", text=const.SAMPLE)
+
+card_deck.export_json()
+
