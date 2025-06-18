@@ -1,6 +1,11 @@
 import json
-import class_word_dictionary as clwd
-from sample_data import *
+from obj import class_deck
+import sys
+import const
+
+# Load modules from other directories
+sys.path.insert(0,'./obj')
+
 
 """
 Function: is_a_word
@@ -15,6 +20,7 @@ def is_a_word(text):
             return False
     return True
 
+
 """
 Function: initialize_dictionary_from_text
 Description: Initialize a dictionary of words. 
@@ -24,18 +30,22 @@ Return: dict
 """
 def initialize_dictionary_from_text(text):
     word_dictionary={}
-    words = text.lower().split()
+    words = map(lambda word:word.strip(',.;?/\'\"\\+-_= '),
+                text.lower().split())
+
     for word in words:
-        word = word.strip(',.;?/\'\"\\+-_= ')
         if not is_a_word(word):
             continue
+
         if word not in word_dictionary.keys():
-            word_dictionary[word] = clwd.Word(word)
+            word_dictionary[word] = class_deck.Card(word)
+
     return word_dictionary
 
 
-dictionary_from_string = initialize_dictionary_from_text(SAMPLE)
+dictionary_from_string = initialize_dictionary_from_text(const.SAMPLE)
 print(dictionary_from_string)
+
 
 with open('result.json', 'w') as fp:
     json.dump(dictionary_from_string, fp, default=lambda x: x.__json__() if hasattr(x, '__json__') else None)
