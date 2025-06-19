@@ -1,7 +1,11 @@
+import const
+from .class_card import Card
 import json
 import http
 import datetime
 from json import JSONEncoder
+
+
 
 # Global helper functions
 def is_a_word(text):
@@ -13,10 +17,10 @@ def is_a_word(text):
 # Deck class - Saves the dict of a flashcard deck.
 # Contains: ID for database index, User-defined title, date of update/creation.  
 class Deck:
-    def __init__(self, title="", date=datetime.datetime.now(), id=0, flashcards={}):
+    def __init__(self, title="", id=0, flashcards={}):
         self._id = id               # ID for indexing
         self.title = title          # Title of this deck
-        self.date = date            # Date updated
+        self.date = datetime.datetime.now()            # Date updated
         self.flashcards = {}        # The deck content
 
     ### Creation methods ###
@@ -30,17 +34,19 @@ class Deck:
 
         # Raise an error if missing text or title
         if text == "" or title == "":
-            raise Exception("Missing title or content.")
+            raise Exception("Missing title or content.") # Handle this with str(e) with e being Exception literal
 
         # Reinit could be redundant here.
         new_deck = self.__init__(title=title)
-        words = map(lambda word: word.strip(',.;?/\'\"\\+-_= '),
+        words = map(lambda word: word.strip(const.SPECIAL_CHARACTERS),
                     text.lower().split())   # -> list of words
+        card_id = 1
         for word in words:
             if not is_a_word(word):
                 continue
             if word not in self.flashcards.keys():
-                self.flashcards[word] = Card(word)
+                self.flashcards[word] = Card(word, card_id)
+                card_id += 1
 
     # Manual creation of decks by user
     # TODO
@@ -67,33 +73,6 @@ class Deck:
     def __json__(self):
         return {'id': self._id,
                 'title': self.title,
-                'date': self.date,
+                'date': str(self.date),
                 'flashcards': self.flashcards}
 
-# Card class - There will be different card types but it's not implemented now.
-class Card:
-    # Allows the text to be initialized with only the text itself
-    def __init__(self,front, deck_id=0,ignored=False,back="<x>", box=1):
-        self.id = 0
-        self.deck_id = deck_id          # ID for tying a card to one deck. In case there are two words in different decks.
-        self.front = front              # The word string that is the front of this card, also the key of this card.
-        self.ignored = ignored          # If the user decides not to review this, it is True.
-        self.back = back                # The "back" of this card, which usually has the definition of the word.
-        self._box = 1                   # The "box" to put this card in, for spaced repetition simulation of flashcard usage.
-
-    # Override print method
-    def __repr__(self):
-        return f"""{self.front}
-- Back: {self.back}
-- Ignored: {self.ignored}
-- Time seen: {self._time_seen}
-"""
-    
-    # Json export format. Must update this when changing the fields in class.
-    def __json__(self):
-        return {'id': self.id,
-                'deck_id': self.deck_id,
-                'front': self.front,
-                'back': self.back,
-                'box': self._box,
-                'ignored': self.ignored}

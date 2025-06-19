@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard App</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5;
+        }
+        .card-container {
+            perspective: 1000px; /* For 3D flip effect */
+        }
+        .flashcard {
+            width: 100%;
+            height: 200px;
+            transform-style: preserve-3d;
+            transition: transform 0.6s;
+            position: relative;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            background-color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 1.5rem;
+            word-wrap: break-word; /* Ensure text wraps */
+            overflow-wrap: break-word; /* Ensure text wraps */
+        }
+        .flashcard.flipped {
+            transform: rotateY(180deg);
+        }
+        .card-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #333;
+        }
+        .card-front {
+            background-color: #ffffff;
+            color: #333;
+        }
+        .card-back {
+            background-color: #e0f2fe; /* Light blue for back */
+            color: #007bff;
+            transform: rotateY(180deg);
+        }
+        .control-button {
+            @apply px-5 py-2 rounded-lg font-medium transition-all duration-200;
+            @apply shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-opacity-75;
+        }
+        .btn-primary {
+            @apply bg-blue-600 text-white hover:bg-blue-700 focus:ring-blue-500;
+        }
+        .btn-secondary {
+            @apply bg-gray-200 text-gray-800 hover:bg-gray-300 focus:ring-gray-400;
+        }
+        .btn-navigate {
+            @apply bg-indigo-500 text-white hover:bg-indigo-600 focus:ring-indigo-400;
+        }
+        /* Hide card navigation buttons when no cards or only one card */
+        .hidden-nav {
+            display: none;
+        }
+    </style>
+</head>
+<body class="p-4 bg-gray-100 min-h-screen flex items-center justify-center">
+
+    <div class="max-w-4xl w-full bg-white rounded-xl shadow-lg p-6 md:p-8 space-y-8">
+        <h1 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-8">Flashcard App</h1>
+
+        <!-- Create New Card Section -->
+        <div class="bg-blue-50 p-6 rounded-lg shadow-sm">
+            <h2 class="text-2xl font-semibold text-blue-800 mb-4">Create New Flashcard</h2>
+            <form id="newCardForm" class="space-y-4">
+                <div>
+                    <label for="frontText" class="block text-gray-700 text-sm font-medium mb-1">Front of Card</label>
+                    <textarea id="frontText" rows="3" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500" placeholder="e.g., What is the capital of France?"></textarea>
+                </div>
+                <div>
+                    <label for="backText" class="block text-gray-700 text-sm font-medium mb-1">Back of Card</label>
+                    <textarea id="backText" rows="3" class="w-full p-3 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500" placeholder="e.g., Paris"></textarea>
+                </div>
+                <button type="submit" class="w-full control-button btn-primary">Add Flashcard</button>
+            </form>
+        </div>
+
+        <!-- View Flashcards Section -->
+        <div class="bg-purple-50 p-6 rounded-lg shadow-sm">
+            <h2 class="text-2xl font-semibold text-purple-800 mb-4 text-center">Your Flashcards</h2>
+            <div id="flashcardDisplay" class="card-container w-full max-w-md mx-auto relative">
+                <!-- Flashcard will be inserted here by JavaScript -->
+                <div id="noCardsMessage" class="text-center text-gray-600 text-lg mt-4">
+                    Add your first flashcard above to start!
+                </div>
+            </div>
+
+            <div id="cardControls" class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4 mt-6 hidden">
+                <button id="prevCardBtn" class="control-button btn-navigate">Previous Card</button>
+                <button id="flipCardBtn" class="control-button btn-primary">Flip Card</button>
+                <button id="nextCardBtn" class="control-button btn-navigate">Next Card</button>
+            </div>
+            <div id="cardCount" class="text-center text-gray-600 mt-4 text-sm hidden"></div>
+        </div>
+    </div>
+
+    <script>
+        const newCardForm = document.getElementById('newCardForm');
+        const frontText = document.getElementById('frontText');
+        const backText = document.getElementById('backText');
+        const flashcardDisplay = document.getElementById('flashcardDisplay');
+        const noCardsMessage = document.getElementById('noCardsMessage');
+        const cardControls = document.getElementById('cardControls');
+        const flipCardBtn = document.getElementById('flipCardBtn');
+        const prevCardBtn = document.getElementById('prevCardBtn');
+        const nextCardBtn = document.getElementById('nextCardBtn');
+        const cardCountElement = document.getElementById('cardCount');
+
+        let flashcards = [];
+        let currentCardIndex = 0;
+
+        /**
+         * Renders a single flashcard element with front and back faces.
+         * @param {string} frontContent - The text for the front of the card.
+         * @param {string} backContent - The text for the back of the card.
+         * @returns {HTMLElement} The created flashcard element.
+         */
+        function createFlashcardElement(frontContent, backContent) {
+            const card = document.createElement('div');
+            card.className = 'flashcard';
+
+            const frontFace = document.createElement('div');
+            frontFace.className = 'card-face card-front';
+            frontFace.textContent = frontContent;
+
+            const backFace = document.createElement('div');
+            backFace.className = 'card-face card-back';
+            backFace.textContent = backContent;
+
+            card.appendChild(frontFace);
+            card.appendChild(backFace);
+
+            card.addEventListener('click', () => {
+                card.classList.toggle('flipped');
+            });
+
+            return card;
+        }
+
+        /**
+         * Displays the flashcard at the given index.
+         * Hides the 'no cards' message and shows controls if cards exist.
+         */
+        function displayCard() {
+            flashcardDisplay.innerHTML = ''; // Clear current card
+            if (flashcards.length === 0) {
+                noCardsMessage.classList.remove('hidden');
+                cardControls.classList.add('hidden');
+                cardCountElement.classList.add('hidden');
+            } else {
+                noCardsMessage.classList.add('hidden');
+                cardControls.classList.remove('hidden');
+                cardCountElement.classList.remove('hidden');
+                const cardData = flashcards[currentCardIndex];
+                const cardElement = createFlashcardElement(cardData.front, cardData.back);
+                flashcardDisplay.appendChild(cardElement);
+                updateCardCount();
+                updateNavigationButtons();
+            }
+        }
+
+        /**
+         * Updates the card count display (e.g., "Card 1 of 5").
+         */
+        function updateCardCount() {
+            if (flashcards.length > 0) {
+                cardCountElement.textContent = `Card ${currentCardIndex + 1} of ${flashcards.length}`;
+            } else {
+                cardCountElement.textContent = '';
+            }
+        }
+
+        /**
+         * Enables/disables navigation buttons based on current card index.
+         */
+        function updateNavigationButtons() {
+            prevCardBtn.disabled = currentCardIndex === 0;
+            nextCardBtn.disabled = currentCardIndex === flashcards.length - 1;
+
+            if (flashcards.length <= 1) {
+                prevCardBtn.classList.add('hidden-nav');
+                nextCardBtn.classList.add('hidden-nav');
+            } else {
+                prevCardBtn.classList.remove('hidden-nav');
+                nextCardBtn.classList.remove('hidden-nav');
+            }
+        }
+
+        // Event Listener for Add New Card Form
+        newCardForm.addEventListener('submit', (e) => {
+            e.preventDefault(); // Prevent default form submission
+
+            const front = frontText.value.trim();
+            const back = backText.value.trim();
+
+            if (front && back) {
+                flashcards.push({ front, back });
+                // If this is the first card added, set currentCardIndex to 0
+                if (flashcards.length === 1) {
+                    currentCardIndex = 0;
+                } else if (currentCardIndex === -1) { // If all cards were deleted and new one added
+                    currentCardIndex = 0;
+                }
+                displayCard(); // Re-render the display
+                frontText.value = ''; // Clear form fields
+                backText.value = '';
+                frontText.focus(); // Focus back on the front text field
+            } else {
+                // In a real app, you'd show a more user-friendly message,
+                // but for this UI, a simple console log is fine.
+                console.log("Please fill both front and back of the card.");
+            }
+        });
+
+        // Event Listener for Flip Card Button
+        flipCardBtn.addEventListener('click', () => {
+            const currentCardElement = flashcardDisplay.querySelector('.flashcard');
+            if (currentCardElement) {
+                currentCardElement.classList.toggle('flipped');
+            }
+        });
+
+        // Event Listener for Previous Card Button
+        prevCardBtn.addEventListener('click', () => {
+            if (currentCardIndex > 0) {
+                currentCardIndex--;
+                displayCard();
+            }
+        });
+
+        // Event Listener for Next Card Button
+        nextCardBtn.addEventListener('click', () => {
+            if (currentCardIndex < flashcards.length - 1) {
+                currentCardIndex++;
+                displayCard();
+            }
+        });
+
+        // Initial display when the page loads
+        document.addEventListener('DOMContentLoaded', displayCard);
+    </script>
+</body>
+</html>
