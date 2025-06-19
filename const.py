@@ -1,3 +1,4 @@
+DEFAULT_PATH = 'result.json'
 SPECIAL_CHARACTERS = ',.;?/\'\"\\+-_= '
 SAMPLE = '''
 A few words about Dostoevsky himself may help the English reader to
