@@ -8,8 +8,8 @@ from json import JSONEncoder
 
 
 # Global helper functions
-def is_a_word(text):
-    for char in text:
+def is_alpha_word(word):
+    for char in word:
         if not char.isalpha():
             return False
     return True
@@ -25,6 +25,7 @@ class Deck:
 
     ### Creation methods ###
     # Import flashcards from a passage of text. Title and text must be filled.
+    # Note: Remove Text?
     def import_from_text(self, title="", text="", url=""):
         if url != "":
             # Logic for text parsing from API etc. Not implemented.
@@ -35,18 +36,18 @@ class Deck:
         # Raise an error if missing text or title
         if text == "" or title == "":
             raise Exception("Missing title or content.") # Handle this with str(e) with e being Exception literal
-
+        
+        self.title = title
         # Reinit could be redundant here.
-        new_deck = self.__init__(title=title)
         words = map(lambda word: word.strip(const.SPECIAL_CHARACTERS),
                     text.lower().split())   # -> list of words
-        card_id = 1
+        count = 0
         for word in words:
-            if not is_a_word(word):
+            if not is_alpha_word(word):
                 continue
             if word not in self.flashcards.keys():
-                self.flashcards[word] = Card(word, card_id)
-                card_id += 1
+                self.flashcards[word] = Card(word, card_id=count,deck_id=self._id)
+                count += 1
 
     # Manual creation of decks by user
     # TODO
@@ -66,7 +67,8 @@ class Deck:
         with open('result.json', 'w') as fp:
             json.dump(self, fp, default=lambda x: x.__json__() if hasattr(x, '__json__') else None)
     
-
+    def __repr__(self):
+        return f"--- Deck info ---\nTitle: {self.title}\nCards:{self.flashcards}"
 
     # Json export format. Must update this when changing the fields in class.
     # Check if it can save
