@@ -1,0 +1,2 @@
+# First create a Python virtual environment then activate it.
+# Second run Flask app with "flask --app app run" (command --option project_name argument)

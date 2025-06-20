@@ -1,4 +1,4 @@
-# Will use when I get to English dictionary integration
+# For English dictionary integration when I get to it.
 
 class Word:
     def __init__(self, _id, word):
