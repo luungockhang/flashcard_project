@@ -6,12 +6,12 @@ from obj import class_appconfig
 
 # Load modules from other directories
 sys.path.append('./obj')
-sys.path.append('./obj/class_card.py')
+sys.path.append('./flashcard-app')
 
 cfg = class_appconfig.AppConfig()
 cfg.load_data()
 cfg.debug_output_first_deck()
-deck = class_deck.Deck().import_from_text(title="dovtoyevsky's life", text=const.SAMPLE)
+deck = class_deck.Deck().import_from_text(title=const.DEFAULT_TITLE, text=const.SAMPLE)
 cfg.save_data_to_json()
 # card_deck = class_deck.Deck()
 

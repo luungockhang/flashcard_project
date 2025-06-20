@@ -1,6 +1,6 @@
 class FlashcardApp {
   constructor() {
-    this.flashcards = []
+    this.flashcards = {}
     this.currentIndex = 0
     this.isFlipped = false
 
@@ -73,6 +73,7 @@ class FlashcardApp {
     document.getElementById("next-btn").disabled = !hasCards
   }
 
+  // Animation
   nextCard() {
     if (this.flashcards.length > 1) {
       this.currentIndex = (this.currentIndex + 1) % this.flashcards.length

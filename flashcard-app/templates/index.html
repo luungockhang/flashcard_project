@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
+
 <body class="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
     <div class="container mx-auto p-4 max-w-2xl">
         <!-- Header -->
@@ -25,13 +27,15 @@
                 <span class="text-sm text-gray-600" id="progress-text">1 of {{ flashcards|length }}</span>
             </div>
             <div class="w-full bg-gray-200 rounded-full h-2">
-                <div id="progress-bar" class="bg-indigo-600 h-2 rounded-full transition-all duration-300" style="width: {{ (1 / flashcards|length * 100) if flashcards else 0 }}%"></div>
+                <div id="progress-bar" class="bg-indigo-600 h-2 rounded-full transition-all duration-300"
+                    style="width: {{ (1 / flashcards|length * 100) if flashcards else 0 }}"></div>
             </div>
         </div>
 
         <!-- Flashcard -->
         <div class="mb-8">
-            <div id="flashcard" class="bg-white rounded-lg shadow-lg h-64 cursor-pointer transition-all duration-300 hover:shadow-xl flex items-center justify-center p-8">
+            <div id="flashcard"
+                class="bg-white rounded-lg shadow-lg h-64 cursor-pointer transition-all duration-300 hover:shadow-xl flex items-center justify-center p-8">
                 <div class="text-center">
                     <div id="card-content" class="text-lg font-medium text-gray-800 mb-4">
                         {% if flashcards %}{{ flashcards[0].front }}{% else %}No cards available{% endif %}
@@ -43,19 +47,24 @@
             </div>
         </div>
 
+        <!-- Deck -->
+
         <!-- Navigation Controls -->
         <div class="flex justify-center items-center gap-4 mb-8">
-            <button id="prev-btn" class="bg-white border border-gray-300 text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-50 transition-colors flex items-center gap-2">
+            <button id="prev-btn"
+                class="bg-white border border-gray-300 text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-50 transition-colors flex items-center gap-2">
                 <i class="fas fa-chevron-left"></i>
                 Previous
             </button>
 
-            <button id="flip-btn" class="bg-white border border-gray-300 text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-50 transition-colors flex items-center gap-2">
+            <button id="flip-btn"
+                class="bg-white border border-gray-300 text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-50 transition-colors flex items-center gap-2">
                 <i class="fas fa-redo"></i>
                 Flip Card
             </button>
 
-            <button id="next-btn" class="bg-white border border-gray-300 text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-50 transition-colors flex items-center gap-2">
+            <button id="next-btn"
+                class="bg-white border border-gray-300 text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-50 transition-colors flex items-center gap-2">
                 Next
                 <i class="fas fa-chevron-right"></i>
             </button>
@@ -63,12 +72,20 @@
 
         <!-- Action Buttons -->
         <div class="flex justify-center gap-4 mb-8">
-            <button id="add-card-btn" class="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors flex items-center gap-2">
+            <button id="add-card-btn"
+                class="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors flex items-center gap-2">
                 <i class="fas fa-plus"></i>
                 Add Card
             </button>
 
-            <button id="reset-btn" class="bg-white border border-gray-300 text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-50 transition-colors flex items-center gap-2">
+            <button id="add-card-btn"
+                class="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition-colors flex items-center gap-2">
+                <i class="fas fa-hand-lizard-o"></i>
+                Choose another deck
+            </button>
+
+            <button id="reset-btn"
+                class="bg-white border border-gray-300 text-gray-700 px-6 py-3 rounded-lg hover:bg-gray-50 transition-colors flex items-center gap-2">
                 <i class="fas fa-redo"></i>
                 Reset Progress
             </button>
@@ -87,15 +104,19 @@
             <form id="add-card-form">
                 <div class="mb-4">
                     <label class="block text-sm font-medium text-gray-700 mb-2">Question (Front)</label>
-                    <textarea id="card-front" class="w-full p-3 border border-gray-300 rounded-lg min-h-[80px]" placeholder="Enter the question..."></textarea>
+                    <textarea id="card-front" class="w-full p-3 border border-gray-300 rounded-lg min-h-[80px]"
+                        placeholder="Enter the question..."></textarea>
                 </div>
                 <div class="mb-4">
                     <label class="block text-sm font-medium text-gray-700 mb-2">Answer (Back)</label>
-                    <textarea id="card-back" class="w-full p-3 border border-gray-300 rounded-lg min-h-[80px]" placeholder="Enter the answer..."></textarea>
+                    <textarea id="card-back" class="w-full p-3 border border-gray-300 rounded-lg min-h-[80px]"
+                        placeholder="Enter the answer..."></textarea>
                 </div>
                 <div class="flex justify-end gap-2">
-                    <button type="button" id="cancel-btn" class="px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50">Cancel</button>
-                    <button type="submit" class="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700">Add Card</button>
+                    <button type="button" id="cancel-btn"
+                        class="px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50">Cancel</button>
+                    <button type="submit" class="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700">Add
+                        Card</button>
                 </div>
             </form>
         </div>
@@ -103,4 +124,5 @@
 
     <script src="{{ url_for('static', filename='app.js') }}"></script>
 </body>
+
 </html>

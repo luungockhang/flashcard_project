@@ -1,0 +1,3742 @@
+{
+    "username": "defaultuser",
+    "decks": [
+        {
+            "id": 0,
+            "title": "default",
+            "date": "2025-06-20 09:10:18.413602",
+            "flashcards": {
+                "a": {
+                    "id": 0,
+                    "deck_id": 0,
+                    "front": "a",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413821",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "few": {
+                    "id": 1,
+                    "deck_id": 0,
+                    "front": "few",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413839",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "words": {
+                    "id": 2,
+                    "deck_id": 0,
+                    "front": "words",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413847",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "about": {
+                    "id": 3,
+                    "deck_id": 0,
+                    "front": "about",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413857",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "dostoevsky": {
+                    "id": 4,
+                    "deck_id": 0,
+                    "front": "dostoevsky",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413868",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "himself": {
+                    "id": 5,
+                    "deck_id": 0,
+                    "front": "himself",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413877",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "may": {
+                    "id": 6,
+                    "deck_id": 0,
+                    "front": "may",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413884",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "help": {
+                    "id": 7,
+                    "deck_id": 0,
+                    "front": "help",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413888",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "the": {
+                    "id": 8,
+                    "deck_id": 0,
+                    "front": "the",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413891",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "english": {
+                    "id": 9,
+                    "deck_id": 0,
+                    "front": "english",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413908",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "reader": {
+                    "id": 10,
+                    "deck_id": 0,
+                    "front": "reader",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413913",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "to": {
+                    "id": 11,
+                    "deck_id": 0,
+                    "front": "to",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413922",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "understand": {
+                    "id": 12,
+                    "deck_id": 0,
+                    "front": "understand",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413932",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "his": {
+                    "id": 13,
+                    "deck_id": 0,
+                    "front": "his",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413936",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "work": {
+                    "id": 14,
+                    "deck_id": 0,
+                    "front": "work",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413941",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "was": {
+                    "id": 15,
+                    "deck_id": 0,
+                    "front": "was",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413948",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "son": {
+                    "id": 16,
+                    "deck_id": 0,
+                    "front": "son",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413951",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "of": {
+                    "id": 17,
+                    "deck_id": 0,
+                    "front": "of",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413953",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "doctor": {
+                    "id": 18,
+                    "deck_id": 0,
+                    "front": "doctor",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413957",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "parents": {
+                    "id": 19,
+                    "deck_id": 0,
+                    "front": "parents",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413960",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "were": {
+                    "id": 20,
+                    "deck_id": 0,
+                    "front": "were",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413974",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "very": {
+                    "id": 21,
+                    "deck_id": 0,
+                    "front": "very",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413976",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "and": {
+                    "id": 22,
+                    "deck_id": 0,
+                    "front": "and",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413980",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "deeply": {
+                    "id": 23,
+                    "deck_id": 0,
+                    "front": "deeply",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413982",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "religious": {
+                    "id": 24,
+                    "deck_id": 0,
+                    "front": "religious",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413984",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "people": {
+                    "id": 25,
+                    "deck_id": 0,
+                    "front": "people",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413987",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "but": {
+                    "id": 26,
+                    "deck_id": 0,
+                    "front": "but",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413989",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "so": {
+                    "id": 27,
+                    "deck_id": 0,
+                    "front": "so",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413991",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "poor": {
+                    "id": 28,
+                    "deck_id": 0,
+                    "front": "poor",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413993",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "that": {
+                    "id": 29,
+                    "deck_id": 0,
+                    "front": "that",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413995",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "they": {
+                    "id": 30,
+                    "deck_id": 0,
+                    "front": "they",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413997",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "lived": {
+                    "id": 31,
+                    "deck_id": 0,
+                    "front": "lived",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.413999",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "with": {
+                    "id": 32,
+                    "deck_id": 0,
+                    "front": "with",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414004",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "their": {
+                    "id": 33,
+                    "deck_id": 0,
+                    "front": "their",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414007",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "five": {
+                    "id": 34,
+                    "deck_id": 0,
+                    "front": "five",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414009",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "children": {
+                    "id": 35,
+                    "deck_id": 0,
+                    "front": "children",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414011",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "in": {
+                    "id": 36,
+                    "deck_id": 0,
+                    "front": "in",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414013",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "only": {
+                    "id": 37,
+                    "deck_id": 0,
+                    "front": "only",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414015",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "two": {
+                    "id": 38,
+                    "deck_id": 0,
+                    "front": "two",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414017",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "rooms": {
+                    "id": 39,
+                    "deck_id": 0,
+                    "front": "rooms",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414020",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "father": {
+                    "id": 40,
+                    "deck_id": 0,
+                    "front": "father",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414022",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "mother": {
+                    "id": 41,
+                    "deck_id": 0,
+                    "front": "mother",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414025",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "spent": {
+                    "id": 42,
+                    "deck_id": 0,
+                    "front": "spent",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414027",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "evenings": {
+                    "id": 43,
+                    "deck_id": 0,
+                    "front": "evenings",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414032",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "reading": {
+                    "id": 44,
+                    "deck_id": 0,
+                    "front": "reading",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414034",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "aloud": {
+                    "id": 45,
+                    "deck_id": 0,
+                    "front": "aloud",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414037",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "generally": {
+                    "id": 46,
+                    "deck_id": 0,
+                    "front": "generally",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414041",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "from": {
+                    "id": 47,
+                    "deck_id": 0,
+                    "front": "from",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414043",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "books": {
+                    "id": 48,
+                    "deck_id": 0,
+                    "front": "books",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414045",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "serious": {
+                    "id": 49,
+                    "deck_id": 0,
+                    "front": "serious",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414049",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "character": {
+                    "id": 50,
+                    "deck_id": 0,
+                    "front": "character",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414051",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "though": {
+                    "id": 51,
+                    "deck_id": 0,
+                    "front": "though",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414053",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "always": {
+                    "id": 52,
+                    "deck_id": 0,
+                    "front": "always",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414055",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "sickly": {
+                    "id": 53,
+                    "deck_id": 0,
+                    "front": "sickly",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414057",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "delicate": {
+                    "id": 54,
+                    "deck_id": 0,
+                    "front": "delicate",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414060",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "came": {
+                    "id": 55,
+                    "deck_id": 0,
+                    "front": "came",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414063",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "out": {
+                    "id": 56,
+                    "deck_id": 0,
+                    "front": "out",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414065",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "third": {
+                    "id": 57,
+                    "deck_id": 0,
+                    "front": "third",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414067",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "final": {
+                    "id": 58,
+                    "deck_id": 0,
+                    "front": "final",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414070",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "examination": {
+                    "id": 59,
+                    "deck_id": 0,
+                    "front": "examination",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414072",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "petersburg": {
+                    "id": 60,
+                    "deck_id": 0,
+                    "front": "petersburg",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414078",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "school": {
+                    "id": 61,
+                    "deck_id": 0,
+                    "front": "school",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414080",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "engineering": {
+                    "id": 62,
+                    "deck_id": 0,
+                    "front": "engineering",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414083",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "there": {
+                    "id": 63,
+                    "deck_id": 0,
+                    "front": "there",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414087",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "he": {
+                    "id": 64,
+                    "deck_id": 0,
+                    "front": "he",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414089",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "had": {
+                    "id": 65,
+                    "deck_id": 0,
+                    "front": "had",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414091",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "already": {
+                    "id": 66,
+                    "deck_id": 0,
+                    "front": "already",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414094",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "begun": {
+                    "id": 67,
+                    "deck_id": 0,
+                    "front": "begun",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414096",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "first": {
+                    "id": 68,
+                    "deck_id": 0,
+                    "front": "first",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414098",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "this": {
+                    "id": 69,
+                    "deck_id": 0,
+                    "front": "this",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414103",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "story": {
+                    "id": 70,
+                    "deck_id": 0,
+                    "front": "story",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414105",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "published": {
+                    "id": 71,
+                    "deck_id": 0,
+                    "front": "published",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414108",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "by": {
+                    "id": 72,
+                    "deck_id": 0,
+                    "front": "by",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414110",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "poet": {
+                    "id": 73,
+                    "deck_id": 0,
+                    "front": "poet",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414112",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "nekrassov": {
+                    "id": 74,
+                    "deck_id": 0,
+                    "front": "nekrassov",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414115",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "review": {
+                    "id": 75,
+                    "deck_id": 0,
+                    "front": "review",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414118",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "received": {
+                    "id": 76,
+                    "deck_id": 0,
+                    "front": "received",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414121",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "acclamations": {
+                    "id": 77,
+                    "deck_id": 0,
+                    "front": "acclamations",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414124",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "shy": {
+                    "id": 78,
+                    "deck_id": 0,
+                    "front": "shy",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414127",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "unknown": {
+                    "id": 79,
+                    "deck_id": 0,
+                    "front": "unknown",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414129",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "youth": {
+                    "id": 80,
+                    "deck_id": 0,
+                    "front": "youth",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414131",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "found": {
+                    "id": 81,
+                    "deck_id": 0,
+                    "front": "found",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414133",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "instantly": {
+                    "id": 82,
+                    "deck_id": 0,
+                    "front": "instantly",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414136",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "something": {
+                    "id": 83,
+                    "deck_id": 0,
+                    "front": "something",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414138",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "celebrity": {
+                    "id": 84,
+                    "deck_id": 0,
+                    "front": "celebrity",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414142",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "brilliant": {
+                    "id": 85,
+                    "deck_id": 0,
+                    "front": "brilliant",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414144",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "successful": {
+                    "id": 86,
+                    "deck_id": 0,
+                    "front": "successful",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414150",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "career": {
+                    "id": 87,
+                    "deck_id": 0,
+                    "front": "career",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414153",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "seemed": {
+                    "id": 88,
+                    "deck_id": 0,
+                    "front": "seemed",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414156",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "open": {
+                    "id": 89,
+                    "deck_id": 0,
+                    "front": "open",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414159",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "before": {
+                    "id": 90,
+                    "deck_id": 0,
+                    "front": "before",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414162",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "him": {
+                    "id": 91,
+                    "deck_id": 0,
+                    "front": "him",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414164",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "those": {
+                    "id": 92,
+                    "deck_id": 0,
+                    "front": "those",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414166",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "hopes": {
+                    "id": 93,
+                    "deck_id": 0,
+                    "front": "hopes",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414168",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "soon": {
+                    "id": 94,
+                    "deck_id": 0,
+                    "front": "soon",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414171",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "dashed": {
+                    "id": 95,
+                    "deck_id": 0,
+                    "front": "dashed",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414173",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "arrested": {
+                    "id": 96,
+                    "deck_id": 0,
+                    "front": "arrested",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414178",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "neither": {
+                    "id": 97,
+                    "deck_id": 0,
+                    "front": "neither",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414181",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "temperament": {
+                    "id": 98,
+                    "deck_id": 0,
+                    "front": "temperament",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414184",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "nor": {
+                    "id": 99,
+                    "deck_id": 0,
+                    "front": "nor",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414186",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "conviction": {
+                    "id": 100,
+                    "deck_id": 0,
+                    "front": "conviction",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414188",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "revolutionist": {
+                    "id": 101,
+                    "deck_id": 0,
+                    "front": "revolutionist",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414191",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "one": {
+                    "id": 102,
+                    "deck_id": 0,
+                    "front": "one",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414195",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "little": {
+                    "id": 103,
+                    "deck_id": 0,
+                    "front": "little",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414198",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "group": {
+                    "id": 104,
+                    "deck_id": 0,
+                    "front": "group",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414200",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "young": {
+                    "id": 105,
+                    "deck_id": 0,
+                    "front": "young",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414203",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "men": {
+                    "id": 106,
+                    "deck_id": 0,
+                    "front": "men",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414205",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "who": {
+                    "id": 107,
+                    "deck_id": 0,
+                    "front": "who",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414207",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "met": {
+                    "id": 108,
+                    "deck_id": 0,
+                    "front": "met",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414209",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "together": {
+                    "id": 109,
+                    "deck_id": 0,
+                    "front": "together",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414212",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "read": {
+                    "id": 110,
+                    "deck_id": 0,
+                    "front": "read",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414214",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "fourier": {
+                    "id": 111,
+                    "deck_id": 0,
+                    "front": "fourier",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414217",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "proudhon": {
+                    "id": 112,
+                    "deck_id": 0,
+                    "front": "proudhon",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414219",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "accused": {
+                    "id": 113,
+                    "deck_id": 0,
+                    "front": "accused",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414223",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "part": {
+                    "id": 114,
+                    "deck_id": 0,
+                    "front": "part",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414226",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "conversations": {
+                    "id": 115,
+                    "deck_id": 0,
+                    "front": "conversations",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414229",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "against": {
+                    "id": 116,
+                    "deck_id": 0,
+                    "front": "against",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414233",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "censorship": {
+                    "id": 117,
+                    "deck_id": 0,
+                    "front": "censorship",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414236",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "letter": {
+                    "id": 118,
+                    "deck_id": 0,
+                    "front": "letter",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414240",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "byelinsky": {
+                    "id": 119,
+                    "deck_id": 0,
+                    "front": "byelinsky",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414243",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "gogol": {
+                    "id": 120,
+                    "deck_id": 0,
+                    "front": "gogol",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414246",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "knowing": {
+                    "id": 121,
+                    "deck_id": 0,
+                    "front": "knowing",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414249",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "intention": {
+                    "id": 122,
+                    "deck_id": 0,
+                    "front": "intention",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414252",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "set": {
+                    "id": 123,
+                    "deck_id": 0,
+                    "front": "set",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414255",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "up": {
+                    "id": 124,
+                    "deck_id": 0,
+                    "front": "up",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414257",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "printing": {
+                    "id": 125,
+                    "deck_id": 0,
+                    "front": "printing",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414260",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "under": {
+                    "id": 126,
+                    "deck_id": 0,
+                    "front": "under",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414263",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "nicholas": {
+                    "id": 127,
+                    "deck_id": 0,
+                    "front": "nicholas",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414265",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "i": {
+                    "id": 128,
+                    "deck_id": 0,
+                    "front": "i",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414267",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "just": {
+                    "id": 129,
+                    "deck_id": 0,
+                    "front": "just",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414270",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "as": {
+                    "id": 130,
+                    "deck_id": 0,
+                    "front": "as",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414273",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "maurice": {
+                    "id": 131,
+                    "deck_id": 0,
+                    "front": "maurice",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414275",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "baring": {
+                    "id": 132,
+                    "deck_id": 0,
+                    "front": "baring",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414277",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "calls": {
+                    "id": 133,
+                    "deck_id": 0,
+                    "front": "calls",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414280",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "enough": {
+                    "id": 134,
+                    "deck_id": 0,
+                    "front": "enough",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414283",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "condemned": {
+                    "id": 135,
+                    "deck_id": 0,
+                    "front": "condemned",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414287",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "death": {
+                    "id": 136,
+                    "deck_id": 0,
+                    "front": "death",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414290",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "after": {
+                    "id": 137,
+                    "deck_id": 0,
+                    "front": "after",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414292",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "eight": {
+                    "id": 138,
+                    "deck_id": 0,
+                    "front": "eight",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414294",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "imprisonment": {
+                    "id": 139,
+                    "deck_id": 0,
+                    "front": "imprisonment",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414297",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "others": {
+                    "id": 140,
+                    "deck_id": 0,
+                    "front": "others",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414301",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "taken": {
+                    "id": 141,
+                    "deck_id": 0,
+                    "front": "taken",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414304",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "semyonovsky": {
+                    "id": 142,
+                    "deck_id": 0,
+                    "front": "semyonovsky",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414308",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "square": {
+                    "id": 143,
+                    "deck_id": 0,
+                    "front": "square",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414312",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "be": {
+                    "id": 144,
+                    "deck_id": 0,
+                    "front": "be",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414315",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "shot": {
+                    "id": 145,
+                    "deck_id": 0,
+                    "front": "shot",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414319",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "writing": {
+                    "id": 146,
+                    "deck_id": 0,
+                    "front": "writing",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414321",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "brother": {
+                    "id": 147,
+                    "deck_id": 0,
+                    "front": "brother",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414325",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "mihail": {
+                    "id": 148,
+                    "deck_id": 0,
+                    "front": "mihail",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414327",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "snapped": {
+                    "id": 149,
+                    "deck_id": 0,
+                    "front": "snapped",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414332",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "over": {
+                    "id": 150,
+                    "deck_id": 0,
+                    "front": "over",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414334",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "our": {
+                    "id": 151,
+                    "deck_id": 0,
+                    "front": "our",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414337",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "heads": {
+                    "id": 152,
+                    "deck_id": 0,
+                    "front": "heads",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414339",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "made": {
+                    "id": 153,
+                    "deck_id": 0,
+                    "front": "made",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414342",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "us": {
+                    "id": 154,
+                    "deck_id": 0,
+                    "front": "us",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414344",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "put": {
+                    "id": 155,
+                    "deck_id": 0,
+                    "front": "put",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414346",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "on": {
+                    "id": 156,
+                    "deck_id": 0,
+                    "front": "on",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414348",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "white": {
+                    "id": 157,
+                    "deck_id": 0,
+                    "front": "white",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414351",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "shirts": {
+                    "id": 158,
+                    "deck_id": 0,
+                    "front": "shirts",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414353",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "worn": {
+                    "id": 159,
+                    "deck_id": 0,
+                    "front": "worn",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414355",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "persons": {
+                    "id": 160,
+                    "deck_id": 0,
+                    "front": "persons",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414358",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "thereupon": {
+                    "id": 161,
+                    "deck_id": 0,
+                    "front": "thereupon",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414362",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "we": {
+                    "id": 162,
+                    "deck_id": 0,
+                    "front": "we",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414365",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "bound": {
+                    "id": 163,
+                    "deck_id": 0,
+                    "front": "bound",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414367",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "threes": {
+                    "id": 164,
+                    "deck_id": 0,
+                    "front": "threes",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414370",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "stakes": {
+                    "id": 165,
+                    "deck_id": 0,
+                    "front": "stakes",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414373",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "suffer": {
+                    "id": 166,
+                    "deck_id": 0,
+                    "front": "suffer",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414376",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "execution": {
+                    "id": 167,
+                    "deck_id": 0,
+                    "front": "execution",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414378",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "being": {
+                    "id": 168,
+                    "deck_id": 0,
+                    "front": "being",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414380",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "row": {
+                    "id": 169,
+                    "deck_id": 0,
+                    "front": "row",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414384",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "concluded": {
+                    "id": 170,
+                    "deck_id": 0,
+                    "front": "concluded",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414387",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "minutes": {
+                    "id": 171,
+                    "deck_id": 0,
+                    "front": "minutes",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414396",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "life": {
+                    "id": 172,
+                    "deck_id": 0,
+                    "front": "life",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414399",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "me": {
+                    "id": 173,
+                    "deck_id": 0,
+                    "front": "me",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414404",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "thought": {
+                    "id": 174,
+                    "deck_id": 0,
+                    "front": "thought",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414407",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "you": {
+                    "id": 175,
+                    "deck_id": 0,
+                    "front": "you",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414410",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "your": {
+                    "id": 176,
+                    "deck_id": 0,
+                    "front": "your",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414413",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "dear": {
+                    "id": 177,
+                    "deck_id": 0,
+                    "front": "dear",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414415",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "ones": {
+                    "id": 178,
+                    "deck_id": 0,
+                    "front": "ones",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414417",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "contrived": {
+                    "id": 179,
+                    "deck_id": 0,
+                    "front": "contrived",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414420",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "kiss": {
+                    "id": 180,
+                    "deck_id": 0,
+                    "front": "kiss",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414423",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "plestcheiev": {
+                    "id": 181,
+                    "deck_id": 0,
+                    "front": "plestcheiev",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414425",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "dourov": {
+                    "id": 182,
+                    "deck_id": 0,
+                    "front": "dourov",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414428",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "next": {
+                    "id": 183,
+                    "deck_id": 0,
+                    "front": "next",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414431",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "bid": {
+                    "id": 184,
+                    "deck_id": 0,
+                    "front": "bid",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414435",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "them": {
+                    "id": 185,
+                    "deck_id": 0,
+                    "front": "them",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414437",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "farewell": {
+                    "id": 186,
+                    "deck_id": 0,
+                    "front": "farewell",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414439",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "suddenly": {
+                    "id": 187,
+                    "deck_id": 0,
+                    "front": "suddenly",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414441",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "troops": {
+                    "id": 188,
+                    "deck_id": 0,
+                    "front": "troops",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414444",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "beat": {
+                    "id": 189,
+                    "deck_id": 0,
+                    "front": "beat",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414446",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "tattoo": {
+                    "id": 190,
+                    "deck_id": 0,
+                    "front": "tattoo",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414449",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "unbound": {
+                    "id": 191,
+                    "deck_id": 0,
+                    "front": "unbound",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414452",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "brought": {
+                    "id": 192,
+                    "deck_id": 0,
+                    "front": "brought",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414454",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "back": {
+                    "id": 193,
+                    "deck_id": 0,
+                    "front": "back",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414456",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "upon": {
+                    "id": 194,
+                    "deck_id": 0,
+                    "front": "upon",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414458",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "scaffold": {
+                    "id": 195,
+                    "deck_id": 0,
+                    "front": "scaffold",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414461",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "informed": {
+                    "id": 196,
+                    "deck_id": 0,
+                    "front": "informed",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414464",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "majesty": {
+                    "id": 197,
+                    "deck_id": 0,
+                    "front": "majesty",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414467",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "spared": {
+                    "id": 198,
+                    "deck_id": 0,
+                    "front": "spared",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414470",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "sentence": {
+                    "id": 199,
+                    "deck_id": 0,
+                    "front": "sentence",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414475",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "commuted": {
+                    "id": 200,
+                    "deck_id": 0,
+                    "front": "commuted",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414477",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "hard": {
+                    "id": 201,
+                    "deck_id": 0,
+                    "front": "hard",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414483",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "labour": {
+                    "id": 202,
+                    "deck_id": 0,
+                    "front": "labour",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414485",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "prisoners": {
+                    "id": 203,
+                    "deck_id": 0,
+                    "front": "prisoners",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414489",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "grigoryev": {
+                    "id": 204,
+                    "deck_id": 0,
+                    "front": "grigoryev",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414491",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "went": {
+                    "id": 205,
+                    "deck_id": 0,
+                    "front": "went",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414493",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "mad": {
+                    "id": 206,
+                    "deck_id": 0,
+                    "front": "mad",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414495",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "untied": {
+                    "id": 207,
+                    "deck_id": 0,
+                    "front": "untied",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414500",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "never": {
+                    "id": 208,
+                    "deck_id": 0,
+                    "front": "never",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414504",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "regained": {
+                    "id": 209,
+                    "deck_id": 0,
+                    "front": "regained",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414506",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "sanity": {
+                    "id": 210,
+                    "deck_id": 0,
+                    "front": "sanity",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414508",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "intense": {
+                    "id": 211,
+                    "deck_id": 0,
+                    "front": "intense",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414511",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "suffering": {
+                    "id": 212,
+                    "deck_id": 0,
+                    "front": "suffering",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414513",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "experience": {
+                    "id": 213,
+                    "deck_id": 0,
+                    "front": "experience",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414517",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "left": {
+                    "id": 214,
+                    "deck_id": 0,
+                    "front": "left",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414519",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "lasting": {
+                    "id": 215,
+                    "deck_id": 0,
+                    "front": "lasting",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414524",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "stamp": {
+                    "id": 216,
+                    "deck_id": 0,
+                    "front": "stamp",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414526",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "mind": {
+                    "id": 217,
+                    "deck_id": 0,
+                    "front": "mind",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414530",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "temper": {
+                    "id": 218,
+                    "deck_id": 0,
+                    "front": "temper",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414534",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "led": {
+                    "id": 219,
+                    "deck_id": 0,
+                    "front": "led",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414536",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "end": {
+                    "id": 220,
+                    "deck_id": 0,
+                    "front": "end",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414540",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "accept": {
+                    "id": 221,
+                    "deck_id": 0,
+                    "front": "accept",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414543",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "every": {
+                    "id": 222,
+                    "deck_id": 0,
+                    "front": "every",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414545",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "resignation": {
+                    "id": 223,
+                    "deck_id": 0,
+                    "front": "resignation",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414549",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "regard": {
+                    "id": 224,
+                    "deck_id": 0,
+                    "front": "regard",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414552",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "it": {
+                    "id": 225,
+                    "deck_id": 0,
+                    "front": "it",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414554",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "blessing": {
+                    "id": 226,
+                    "deck_id": 0,
+                    "front": "blessing",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414557",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "own": {
+                    "id": 227,
+                    "deck_id": 0,
+                    "front": "own",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414560",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "case": {
+                    "id": 228,
+                    "deck_id": 0,
+                    "front": "case",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414563",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "constantly": {
+                    "id": 229,
+                    "deck_id": 0,
+                    "front": "constantly",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414568",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "recurs": {
+                    "id": 230,
+                    "deck_id": 0,
+                    "front": "recurs",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414570",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "subject": {
+                    "id": 231,
+                    "deck_id": 0,
+                    "front": "subject",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414574",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "writings": {
+                    "id": 232,
+                    "deck_id": 0,
+                    "front": "writings",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414577",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "describes": {
+                    "id": 233,
+                    "deck_id": 0,
+                    "front": "describes",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414580",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "awful": {
+                    "id": 234,
+                    "deck_id": 0,
+                    "front": "awful",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414583",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "agony": {
+                    "id": 235,
+                    "deck_id": 0,
+                    "front": "agony",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414585",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "man": {
+                    "id": 236,
+                    "deck_id": 0,
+                    "front": "man",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414589",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "insists": {
+                    "id": 237,
+                    "deck_id": 0,
+                    "front": "insists",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414591",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "cruelty": {
+                    "id": 238,
+                    "deck_id": 0,
+                    "front": "cruelty",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414595",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "inflicting": {
+                    "id": 239,
+                    "deck_id": 0,
+                    "front": "inflicting",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414598",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "such": {
+                    "id": 240,
+                    "deck_id": 0,
+                    "front": "such",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414600",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "torture": {
+                    "id": 241,
+                    "deck_id": 0,
+                    "front": "torture",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414602",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "then": {
+                    "id": 242,
+                    "deck_id": 0,
+                    "front": "then",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414604",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "followed": {
+                    "id": 243,
+                    "deck_id": 0,
+                    "front": "followed",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414606",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "four": {
+                    "id": 244,
+                    "deck_id": 0,
+                    "front": "four",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414608",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "years": {
+                    "id": 245,
+                    "deck_id": 0,
+                    "front": "years",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414610",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "penal": {
+                    "id": 246,
+                    "deck_id": 0,
+                    "front": "penal",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414613",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "servitude": {
+                    "id": 247,
+                    "deck_id": 0,
+                    "front": "servitude",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414616",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "company": {
+                    "id": 248,
+                    "deck_id": 0,
+                    "front": "company",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414620",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "common": {
+                    "id": 249,
+                    "deck_id": 0,
+                    "front": "common",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414622",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "criminals": {
+                    "id": 250,
+                    "deck_id": 0,
+                    "front": "criminals",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414625",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "siberia": {
+                    "id": 251,
+                    "deck_id": 0,
+                    "front": "siberia",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414627",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "where": {
+                    "id": 252,
+                    "deck_id": 0,
+                    "front": "where",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414629",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "began": {
+                    "id": 253,
+                    "deck_id": 0,
+                    "front": "began",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414632",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "some": {
+                    "id": 254,
+                    "deck_id": 0,
+                    "front": "some",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414637",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "service": {
+                    "id": 255,
+                    "deck_id": 0,
+                    "front": "service",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414640",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "disciplinary": {
+                    "id": 256,
+                    "deck_id": 0,
+                    "front": "disciplinary",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414644",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "battalion": {
+                    "id": 257,
+                    "deck_id": 0,
+                    "front": "battalion",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414648",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "shown": {
+                    "id": 258,
+                    "deck_id": 0,
+                    "front": "shown",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414653",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "signs": {
+                    "id": 259,
+                    "deck_id": 0,
+                    "front": "signs",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414656",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "obscure": {
+                    "id": 260,
+                    "deck_id": 0,
+                    "front": "obscure",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414660",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "nervous": {
+                    "id": 261,
+                    "deck_id": 0,
+                    "front": "nervous",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414662",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "disease": {
+                    "id": 262,
+                    "deck_id": 0,
+                    "front": "disease",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414664",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "arrest": {
+                    "id": 263,
+                    "deck_id": 0,
+                    "front": "arrest",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414668",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "now": {
+                    "id": 264,
+                    "deck_id": 0,
+                    "front": "now",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414671",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "developed": {
+                    "id": 265,
+                    "deck_id": 0,
+                    "front": "developed",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414673",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "into": {
+                    "id": 266,
+                    "deck_id": 0,
+                    "front": "into",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414675",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "violent": {
+                    "id": 267,
+                    "deck_id": 0,
+                    "front": "violent",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414678",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "attacks": {
+                    "id": 268,
+                    "deck_id": 0,
+                    "front": "attacks",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414680",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "epilepsy": {
+                    "id": 269,
+                    "deck_id": 0,
+                    "front": "epilepsy",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414683",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "which": {
+                    "id": 270,
+                    "deck_id": 0,
+                    "front": "which",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414686",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "suffered": {
+                    "id": 271,
+                    "deck_id": 0,
+                    "front": "suffered",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414688",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "for": {
+                    "id": 272,
+                    "deck_id": 0,
+                    "front": "for",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414690",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "rest": {
+                    "id": 273,
+                    "deck_id": 0,
+                    "front": "rest",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414693",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "fits": {
+                    "id": 274,
+                    "deck_id": 0,
+                    "front": "fits",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414698",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "occurred": {
+                    "id": 275,
+                    "deck_id": 0,
+                    "front": "occurred",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414700",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "three": {
+                    "id": 276,
+                    "deck_id": 0,
+                    "front": "three",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414702",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "or": {
+                    "id": 277,
+                    "deck_id": 0,
+                    "front": "or",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414704",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "times": {
+                    "id": 278,
+                    "deck_id": 0,
+                    "front": "times",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414707",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "year": {
+                    "id": 279,
+                    "deck_id": 0,
+                    "front": "year",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414710",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "more": {
+                    "id": 280,
+                    "deck_id": 0,
+                    "front": "more",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414713",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "frequent": {
+                    "id": 281,
+                    "deck_id": 0,
+                    "front": "frequent",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414715",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "periods": {
+                    "id": 282,
+                    "deck_id": 0,
+                    "front": "periods",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414718",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "great": {
+                    "id": 283,
+                    "deck_id": 0,
+                    "front": "great",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414721",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "strain": {
+                    "id": 284,
+                    "deck_id": 0,
+                    "front": "strain",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414723",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "allowed": {
+                    "id": 285,
+                    "deck_id": 0,
+                    "front": "allowed",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414728",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "return": {
+                    "id": 286,
+                    "deck_id": 0,
+                    "front": "return",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414733",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "russia": {
+                    "id": 287,
+                    "deck_id": 0,
+                    "front": "russia",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414736",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "started": {
+                    "id": 288,
+                    "deck_id": 0,
+                    "front": "started",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414739",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "forbidden": {
+                    "id": 289,
+                    "deck_id": 0,
+                    "front": "forbidden",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414744",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "through": {
+                    "id": 290,
+                    "deck_id": 0,
+                    "front": "through",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414749",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "misunderstanding": {
+                    "id": 291,
+                    "deck_id": 0,
+                    "front": "misunderstanding",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414752",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "lost": {
+                    "id": 292,
+                    "deck_id": 0,
+                    "front": "lost",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414755",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "wife": {
+                    "id": 293,
+                    "deck_id": 0,
+                    "front": "wife",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414759",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "terrible": {
+                    "id": 294,
+                    "deck_id": 0,
+                    "front": "terrible",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414768",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "poverty": {
+                    "id": 295,
+                    "deck_id": 0,
+                    "front": "poverty",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414770",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "yet": {
+                    "id": 296,
+                    "deck_id": 0,
+                    "front": "yet",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414772",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "took": {
+                    "id": 297,
+                    "deck_id": 0,
+                    "front": "took",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414775",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "payment": {
+                    "id": 298,
+                    "deck_id": 0,
+                    "front": "payment",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414779",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "debts": {
+                    "id": 299,
+                    "deck_id": 0,
+                    "front": "debts",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414784",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "another": {
+                    "id": 300,
+                    "deck_id": 0,
+                    "front": "another",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414788",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "within": {
+                    "id": 301,
+                    "deck_id": 0,
+                    "front": "within",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414792",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "months": {
+                    "id": 302,
+                    "deck_id": 0,
+                    "front": "months",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414795",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "also": {
+                    "id": 303,
+                    "deck_id": 0,
+                    "front": "also",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414798",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "prohibited": {
+                    "id": 304,
+                    "deck_id": 0,
+                    "front": "prohibited",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414800",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "weighed": {
+                    "id": 305,
+                    "deck_id": 0,
+                    "front": "weighed",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414803",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "down": {
+                    "id": 306,
+                    "deck_id": 0,
+                    "front": "down",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414805",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "debt": {
+                    "id": 307,
+                    "deck_id": 0,
+                    "front": "debt",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414808",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "family": {
+                    "id": 308,
+                    "deck_id": 0,
+                    "front": "family",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414812",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "dependent": {
+                    "id": 309,
+                    "deck_id": 0,
+                    "front": "dependent",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414815",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "forced": {
+                    "id": 310,
+                    "deck_id": 0,
+                    "front": "forced",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414819",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "write": {
+                    "id": 311,
+                    "deck_id": 0,
+                    "front": "write",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414822",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "at": {
+                    "id": 312,
+                    "deck_id": 0,
+                    "front": "at",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414824",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "speed": {
+                    "id": 313,
+                    "deck_id": 0,
+                    "front": "speed",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414827",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "is": {
+                    "id": 314,
+                    "deck_id": 0,
+                    "front": "is",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414831",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "said": {
+                    "id": 315,
+                    "deck_id": 0,
+                    "front": "said",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414834",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "have": {
+                    "id": 316,
+                    "deck_id": 0,
+                    "front": "have",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414837",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "corrected": {
+                    "id": 317,
+                    "deck_id": 0,
+                    "front": "corrected",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414839",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "later": {
+                    "id": 318,
+                    "deck_id": 0,
+                    "front": "later",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414843",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "much": {
+                    "id": 319,
+                    "deck_id": 0,
+                    "front": "much",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414849",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "softened": {
+                    "id": 320,
+                    "deck_id": 0,
+                    "front": "softened",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414851",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "tenderness": {
+                    "id": 321,
+                    "deck_id": 0,
+                    "front": "tenderness",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414854",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "devotion": {
+                    "id": 322,
+                    "deck_id": 0,
+                    "front": "devotion",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414857",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "second": {
+                    "id": 323,
+                    "deck_id": 0,
+                    "front": "second",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414860",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "june": {
+                    "id": 324,
+                    "deck_id": 0,
+                    "front": "june",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414864",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "famous": {
+                    "id": 325,
+                    "deck_id": 0,
+                    "front": "famous",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414868",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "speech": {
+                    "id": 326,
+                    "deck_id": 0,
+                    "front": "speech",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414870",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "unveiling": {
+                    "id": 327,
+                    "deck_id": 0,
+                    "front": "unveiling",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414873",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "monument": {
+                    "id": 328,
+                    "deck_id": 0,
+                    "front": "monument",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414877",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "pushkin": {
+                    "id": 329,
+                    "deck_id": 0,
+                    "front": "pushkin",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414879",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "moscow": {
+                    "id": 330,
+                    "deck_id": 0,
+                    "front": "moscow",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414882",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "extraordinary": {
+                    "id": 331,
+                    "deck_id": 0,
+                    "front": "extraordinary",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414888",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "demonstrations": {
+                    "id": 332,
+                    "deck_id": 0,
+                    "front": "demonstrations",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414890",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "love": {
+                    "id": 333,
+                    "deck_id": 0,
+                    "front": "love",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414893",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "honour": {
+                    "id": 334,
+                    "deck_id": 0,
+                    "front": "honour",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414895",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "died": {
+                    "id": 335,
+                    "deck_id": 0,
+                    "front": "died",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414901",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "grave": {
+                    "id": 336,
+                    "deck_id": 0,
+                    "front": "grave",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414906",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "vast": {
+                    "id": 337,
+                    "deck_id": 0,
+                    "front": "vast",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414909",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "multitude": {
+                    "id": 338,
+                    "deck_id": 0,
+                    "front": "multitude",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414911",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "mourners": {
+                    "id": 339,
+                    "deck_id": 0,
+                    "front": "mourners",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414914",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "hapless": {
+                    "id": 340,
+                    "deck_id": 0,
+                    "front": "hapless",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414918",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "funeral": {
+                    "id": 341,
+                    "deck_id": 0,
+                    "front": "funeral",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414921",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "still": {
+                    "id": 342,
+                    "deck_id": 0,
+                    "front": "still",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414938",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "probably": {
+                    "id": 343,
+                    "deck_id": 0,
+                    "front": "probably",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414941",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "most": {
+                    "id": 344,
+                    "deck_id": 0,
+                    "front": "most",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414944",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "widely": {
+                    "id": 345,
+                    "deck_id": 0,
+                    "front": "widely",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414946",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "writer": {
+                    "id": 346,
+                    "deck_id": 0,
+                    "front": "writer",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414949",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "russian": {
+                    "id": 347,
+                    "deck_id": 0,
+                    "front": "russian",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414955",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "critic": {
+                    "id": 348,
+                    "deck_id": 0,
+                    "front": "critic",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414958",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "seeks": {
+                    "id": 349,
+                    "deck_id": 0,
+                    "front": "seeks",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414960",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "explain": {
+                    "id": 350,
+                    "deck_id": 0,
+                    "front": "explain",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414963",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "feeling": {
+                    "id": 351,
+                    "deck_id": 0,
+                    "front": "feeling",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414966",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "inspired": {
+                    "id": 352,
+                    "deck_id": 0,
+                    "front": "inspired",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414968",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "ourselves": {
+                    "id": 353,
+                    "deck_id": 0,
+                    "front": "ourselves",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414974",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "blood": {
+                    "id": 354,
+                    "deck_id": 0,
+                    "front": "blood",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414978",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "bone": {
+                    "id": 355,
+                    "deck_id": 0,
+                    "front": "bone",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414982",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "has": {
+                    "id": 356,
+                    "deck_id": 0,
+                    "front": "has",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414985",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "seen": {
+                    "id": 357,
+                    "deck_id": 0,
+                    "front": "seen",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414989",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "than": {
+                    "id": 358,
+                    "deck_id": 0,
+                    "front": "than",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414994",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "insight": {
+                    "id": 359,
+                    "deck_id": 0,
+                    "front": "insight",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.414998",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "impresses": {
+                    "id": 360,
+                    "deck_id": 0,
+                    "front": "impresses",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.415000",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "wisdom": {
+                    "id": 361,
+                    "deck_id": 0,
+                    "front": "wisdom",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.415003",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "heart": {
+                    "id": 362,
+                    "deck_id": 0,
+                    "front": "heart",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.415008",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "seek": {
+                    "id": 363,
+                    "deck_id": 0,
+                    "front": "seek",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.415011",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "learn": {
+                    "id": 364,
+                    "deck_id": 0,
+                    "front": "learn",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.415015",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "how": {
+                    "id": 365,
+                    "deck_id": 0,
+                    "front": "how",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.415018",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "live": {
+                    "id": 366,
+                    "deck_id": 0,
+                    "front": "live",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.415021",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "all": {
+                    "id": 367,
+                    "deck_id": 0,
+                    "front": "all",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.415023",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "other": {
+                    "id": 368,
+                    "deck_id": 0,
+                    "front": "other",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.415025",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "gifts": {
+                    "id": 369,
+                    "deck_id": 0,
+                    "front": "gifts",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.415029",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "nature": {
+                    "id": 370,
+                    "deck_id": 0,
+                    "front": "nature",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.415034",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "won": {
+                    "id": 371,
+                    "deck_id": 0,
+                    "front": "won",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.415045",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                },
+                "became": {
+                    "id": 372,
+                    "deck_id": 0,
+                    "front": "became",
+                    "back": "<x>",
+                    "reviewed": "2025-06-20 09:10:18.415051",
+                    "box": 0,
+                    "ignored": false,
+                    "issues": ""
+                }
+            }
+        }
+    ]
+}

@@ -20,9 +20,9 @@ class AppConfig:
             with open(path,'w') as f:
                 self.data['decks'] = []
                 new_deck = Deck()
-                new_deck.import_from_text(title="default",text=const.SAMPLE)
+                new_deck.import_from_text(title=const.DEFAULT_TITLE,text=const.SAMPLE)
                 self.data['decks'].append(new_deck)
-                self.username = "defaultuser"
+                self.username = const.DEFAULT_USER
         except Exception as e:
             print("Load error: ", str(e))
 

@@ -22,6 +22,7 @@ class Deck:
         self.title = title          # Title of this deck
         self.date = datetime.datetime.now()            # Date updated
         self.flashcards = {}        # The deck content
+        # When binding user, there needs to be a user_id here also.
 
     ### Creation methods ###
     # Import flashcards from a passage of text. Title and text must be filled.
@@ -64,7 +65,7 @@ class Deck:
 
     
     def export_json(self):
-        with open('result.json', 'w') as fp:
+        with open(const.DEFAULT_PATH, 'w') as fp:
             json.dump(self, fp, default=lambda x: x.__json__() if hasattr(x, '__json__') else None)
     
     def __repr__(self):

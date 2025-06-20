@@ -1,16 +1,29 @@
 from flask import Flask, render_template, request, jsonify, redirect, url_for
 import json
 import os
+import const
 
 app = Flask(__name__)
+app.config['TESTING'] = True
+
+data = {}
+
+with open(const.DEFAULT_PATH, 'r') as f:
+    data = json.load(f)
 
 # Simple in-memory storage (in production, use a database)
-flashcards = [
-    {"id": 1, "front": "What is the capital of France?", "back": "Paris"},
-    {"id": 2, "front": "What is 2 + 2?", "back": "4"},
-    {"id": 3, "front": "Who wrote Romeo and Juliet?", "back": "William Shakespeare"},
-    {"id": 4, "front": "What is the largest planet in our solar system?", "back": "Jupiter"},
-]
+flashcard_dict = data['decks'][0]['flashcards']
+flashcards = []
+# convert the dict to list
+for card in flashcard_dict:
+    flashcards.append(flashcard_dict[card])
+
+# {
+#     {"id": 1, "front": "What is the capital of France?", "back": "Paris"},
+#     {"id": 2, "front": "What is 2 + 2?", "back": "4"},
+#     {"id": 3, "front": "Who wrote Romeo and Juliet?", "back": "William Shakespeare"},
+#     {"id": 4, "front": "What is the largest planet in our solar system?", "back": "Jupiter"},
+# }
 
 @app.route('/')
 def index():
